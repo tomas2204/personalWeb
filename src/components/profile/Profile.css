@@ -1,0 +1,68 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: url('./fondo.png');
+    /* background-color: blueviolet; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+}
+.upBar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    font-family: 'Sansita Swashed', cursive;
+}
+.links{
+    display: flex;
+    width: 50%;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.titleName{
+    font-weight: bold;
+    text-shadow: 4px 2px 4px aqua;
+    font-size: 24px;
+}
+.imgInicio{
+    border-radius: 100px;
+    box-shadow: 10px 15px 15px 10px rgba(0,0,0,.5);    
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 190px;
+    height: 190px;
+}
+
+.information{
+    width: 60%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.tips{
+    display: flex;
+    flex-direction: column;
+}
+
+.tip{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Sansita Swashed';
+}
